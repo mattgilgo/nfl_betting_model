@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Play of the Day</title>
+</head>
+<body>
+
+<h1>Play of the Day</h1>
+
+<button id="myButton">Click for the Pick</button>
+<p id="outputText"></p>
+
+<p id="pythonValue"></p>
+
+<script>
+// Use Flask server to get the Python value
+fetch('/get_value')
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("myButton").addEventListener("click", function() {
+    document.getElementById("outputText").innerHTML = data.value;})
+    });
+</script>
+
+</body>
+</html>
