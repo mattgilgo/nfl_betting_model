@@ -15,7 +15,7 @@ Repository containing my personal NFL betting models and continued development.
 | Week 8  | -2.09            | SF -5.5               | NO (SF Loss by 14 pts) | 1-3-0             |
 | Week 9  | --               | N/a for travel        | --                     | --                |
 | Week 10 | -0.09            | DEN/BUF OVER 47 pts   | NO (Total: 46 pts)     | 1-1-0             |
-| Week 11 | --               | --                    | --                     | --                |
+| Week 11 | 0.82             | BAL -3.5              | YES (Bal Win by 14)    | 2-1-0             |
 | Week 12 | --               | --                    | --                     | --                |
 | Week 13 | --               | --                    | --                     | --                |
 | Week 14 | --               | --                    | --                     | --                |
