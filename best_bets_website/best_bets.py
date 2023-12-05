@@ -4,7 +4,7 @@ import nfl_data_py as nfl
 import choose_bets
 
 def best_bets():
-    weekly_game_info_df = choose_bets.choose_bets(print_picks=False, input=13)
+    weekly_game_info_df = choose_bets.choose_bets(print_picks=False, input=14)
     best_bets_df = pd.DataFrame()
     spread_df = weekly_game_info_df[['game_id','team_and_spread_to_bet','spread_confidence_score']]
     spread_best_bets_df = spread_df[spread_df['spread_confidence_score'] >= 30]
