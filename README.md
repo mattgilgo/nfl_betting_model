@@ -18,8 +18,8 @@ Repository containing my personal NFL betting models and continued development.
 | Week 11 | 0.82             | BAL -3.5              | YES (Bal Win by 14)    | 2-1-0             |
 | Week 12 | 1.82             | SF -6.5               | YES (SF Win by 18)     | 2-0-0             |
 | Week 13 | 1.82             | MIA -9.5              | YES (Miami Win by 30)  | 2-0-0             |
-| Week 14 | --               | --                    | --                     | --                |
-| Week 15 | --               | --                    | --                     | --                |
+| Week 14 | 0.91             | SF -10.5              | YES (SF Win by 12)     | 1-0-0             |
+| Week 15 | 0.91             | SF -10                | YES (SF Win by 16)     | 1-0-0             |
 | Week 16 | --               | --                    | --                     | --                |
 | Week 17 | --               | --                    | --                     | --                |
 | Week 18 | --               | --                    | --                     | --                |
