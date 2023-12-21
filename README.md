@@ -1,5 +1,5 @@
 # nfl_betting_model
-Repository containing my personal NFL betting models and continued development.
+Repository containing my personal NFL betting models and continued development. Visualization of Results can be seen here: https://public.tableau.com/app/profile/matt.gilgo/vizzes
 
 ### Tracking Weekly Performance
 
@@ -20,6 +20,6 @@ Repository containing my personal NFL betting models and continued development.
 | Week 13 | 1.82             | MIA -9.5              | YES (Miami Win by 30)  | 2-0-0             |
 | Week 14 | 0.91             | SF -10.5              | YES (SF Win by 12)     | 1-0-0             |
 | Week 15 | 0.91             | SF -10                | YES (SF Win by 16)     | 1-0-0             |
-| Week 16 | --               | --                    | --                     | --                |
+| Week 16 | 0                | None                  | NA                     | 0-0-0             |
 | Week 17 | --               | --                    | --                     | --                |
 | Week 18 | --               | --                    | --                     | --                |
