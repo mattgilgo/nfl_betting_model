@@ -21,5 +21,5 @@ Repository containing my personal NFL betting models and continued development. 
 | Week 14 | 0.91             | SF -10.5              | YES (SF Win by 12)     | 1-0-0             |
 | Week 15 | 0.91             | SF -10                | YES (SF Win by 16)     | 1-0-0             |
 | Week 16 | 0                | None                  | NA                     | 0-0-0             |
-| Week 17 | --               | --                    | --                     | --                |
+| Week 17 | -1.09            | SF -13.5              | YES (SF Win by 17)     | 1-2-0             |
 | Week 18 | --               | --                    | --                     | --                |
