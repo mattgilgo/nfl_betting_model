@@ -6,11 +6,11 @@ sys.path.insert(1, 'choose_bets.py')
 import choose_bets
 
 def play_of_the_day(print_play_of_the_day=True):
-    weekly_game_info_df = choose_bets.choose_bets(print_picks=False, input=4)
+    weekly_game_info_df = choose_bets.choose_bets(print_picks=False, input=10)
     best_spread_pick = weekly_game_info_df['spread_confidence_score'].max()
     best_over_under_pick = weekly_game_info_df['over_under_confidence_score'].max()
 
-    if (best_spread_pick >= 30) or (best_over_under_pick >= 30):
+    if (best_spread_pick >= 20) or (best_over_under_pick >= 45):
         if best_spread_pick >= best_over_under_pick:
             best_pick_row = weekly_game_info_df[weekly_game_info_df['spread_confidence_score'] == best_spread_pick]
             best_pick = best_pick_row['team_and_spread_to_bet']

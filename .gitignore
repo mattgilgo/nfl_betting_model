@@ -169,3 +169,6 @@ choose_bets.py
 
 # notebooks
 *.ipynb
+
+# txt
+*.txt

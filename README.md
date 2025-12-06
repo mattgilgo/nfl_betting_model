@@ -1,7 +1,18 @@
 # nfl_betting_model
 Repository containing my personal NFL betting models and continued development. Visualization of Results can be seen here: https://public.tableau.com/app/profile/matt.gilgo/vizzes
 
-### Tracking Weekly Performance
+## Tracking Weekly Performance (archived seasons below)
+### 2024
+
+| Week    | Total Units Made | Play of the Day       | Play of the Day Result | Best Bets Results |
+| ------- | ---------------- | --------------------- | ---------------------- | ----------------- |
+| Week 1  | N/a              | N/a                   | --                     | --                |
+| Week 2  | N/a              | N/a                   | --                     | --                |
+| Week 3  | N/a              | N/a                   | --                     | --                |
+| Week 4  | ---              | ---                   | --                     | --                |
+
+
+### 2023
 
 | Week    | Total Units Made | Play of the Day       | Play of the Day Result | Best Bets Results |
 | ------- | ---------------- | --------------------- | ---------------------- | ----------------- |
@@ -24,3 +35,8 @@ Repository containing my personal NFL betting models and continued development. 
 | Week 17 | -1.09            | SF -13.5              | YES (SF Win by 17)     | 1-2-0             |
 | Week 18 | --               | N/a for week 18 rest  | --                     | --                |
 | Week 19 | --               | --                    | --                     | --                |
+
+
+
+
+
