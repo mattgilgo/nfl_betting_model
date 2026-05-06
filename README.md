@@ -1,23 +1,22 @@
 # NFL Betting Model
 
-> Statistical NFL betting model that identifies value spreads and over/unders using team performance deltas against league medians.
+> Personal NFL betting model that generates weekly spread and over/under picks with confidence rankings.
 
 ## Overview
 
-This model ingests weekly NFL schedule data and per-team passing/rushing stats from Pro Football Reference, then computes offense-vs-defense matchup deltas (yards per attempt relative to league median) for each game. Games where the delta exceeds a confidence threshold are surfaced as best bets. Results and trends are visualized on [Tableau Public](https://public.tableau.com/app/profile/matt.gilgo/vizzes).
+This model analyzes weekly NFL matchup data and produces ranked betting recommendations. Results and trends are visualized on [Tableau Public](https://public.tableau.com/app/profile/matt.gilgo/vizzes).
 
 ## Features
 
-- Computes passing and rushing yards-per-attempt deltas for every matchup
-- Generates spread bets (confidence ≥ 20) and over/under bets (confidence ≥ 45)
-- Flask web apps to view best bets and play-of-the-day picks each week
+- Generates spread and over/under picks each week
+- Flask web apps to view best bets and play-of-the-day picks
 - Multi-season historical tracking (2023–present)
 
 ## Requirements
 
 - Python 3.9+
 - `pandas`, `numpy`, `nfl_data_py`, `flask`
-- Team stat CSVs exported from [Pro Football Reference](https://www.pro-football-reference.com) (passing offense/defense, rushing offense/defense)
+- Team stat CSVs exported from [Pro Football Reference](https://www.pro-football-reference.com)
 
 ## Installation
 
@@ -26,15 +25,6 @@ git clone https://github.com/mattgilgo/nfl_betting_model.git
 cd nfl_betting_model
 pip install pandas numpy nfl_data_py flask
 ```
-
-Download the four stat CSVs from Pro Football Reference for the current season and place them in a folder named `<year>_data/`:
-
-| File | Source |
-|------|--------|
-| `<year>_passing_offense.csv` | Team Stats → Offense |
-| `<year>_passing_defense.csv` | Team Stats → Defense |
-| `<year>_rushing_offense.csv` | Team Stats → Offense |
-| `<year>_rushing_defense.csv` | Team Stats → Defense |
 
 ## Usage
 
@@ -45,7 +35,7 @@ cd best_bets_website
 python app.py
 ```
 
-Navigate to `http://localhost:5000` — clicking "Get Picks" fetches this week's best bets ranked by confidence score.
+Navigate to `http://localhost:5000` and click "Get Picks" to fetch this week's best bets.
 
 **Run the play-of-the-day web app:**
 
@@ -59,15 +49,6 @@ python app.py
 1. Archive the previous season's team data and weekly picks
 2. Download fresh stat CSVs from Pro Football Reference
 3. Update the year and week number constants in each `choose_bets.py`
-
-## Configuration
-
-| Variable | Location | Description |
-|----------|----------|-------------|
-| `week_num` | `choose_bets.py` line 9 | Current NFL week |
-| `year` | `choose_bets.py` line 60 | Current NFL season year |
-| Spread threshold | `best_bets.py` line 10 | Min confidence score for spread bets (default: 20) |
-| O/U threshold | `best_bets.py` line 12 | Min confidence score for over/under bets (default: 45) |
 
 ## Results
 
